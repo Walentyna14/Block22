@@ -1,5 +1,11 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://walentyna14.github.io/Block22/[nc]
+RewriteRule ^(.*)$ http://www.https://walentyna14.github.io/Block22//$1 [r=301,nc]
+
 //Caching schema
-<FilesMatch "\.(png|jpg|css|js)$">
-Header set Cache-Control "max-age=1928448000"
+<FilesMatch "\.(css|js|png|img|pdf|)$">
+Header set Cache-Control "max-age=0"
 </FilesMatch>
  
