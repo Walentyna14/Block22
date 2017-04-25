@@ -6,6 +6,6 @@ RewriteRule ^(.*)$ http://www.https://walentyna14.github.io/Block22//$1 [r=301,n
 
 //Caching schema
 <FilesMatch "\.(css|js|png|img|pdf|)$">
-Header set Cache-Control "max-age=0"
+Header set Cache-Control "max-age=86400"
 </FilesMatch>
  
