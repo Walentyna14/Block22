@@ -1,8 +1,8 @@
 //Rewrite to www
 Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^https://walentyna14.github.io/Block22/[nc]
-RewriteRule ^(.*)$ http://www.https://walentyna14.github.io/Block22//$1 [r=301,nc]
+RewriteCond %{HTTP_HOST} ^https://walentyna14.github.io/Block22/index.html[nc]
+RewriteRule ^(.*)$ http://www.https://walentyna14.github.io/Block22/index.html/$1 [r=301,nc]
 
 //Caching schema
 <FilesMatch "\.(css|js|png|img|pdf|)$">
